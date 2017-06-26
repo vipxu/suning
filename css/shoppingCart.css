@@ -1,0 +1,220 @@
+/*LOGO*/
+    #lg-wrap:after{
+        content:'';
+        display:table;
+        clear:both;
+    }
+    div.logo-img{
+        float:left;
+    }
+/*搜索框*/
+    div.search-box{
+        float:right;
+        margin:30px 0 0 20px;
+        width:400px;
+    }
+    div.search-wrap{
+        background:#f50;
+        width:400px;
+        height:34px;
+        border:2px solid #f50;
+        box-sizing:border-box;
+    }
+    div.search-wrap input{
+        width:300px;
+        height:30px;
+        line-height:30px;
+        outline:none;
+        box-sizing:border-box;
+        font-size:15px;
+        padding-left:30px;
+        background:#fff url(../images/images/search.jpg) no-repeat 9px 7px;
+    }
+    div.search-wrap button{
+        cursor:pointer;
+        outline:none;
+        border:none;
+        width:92px;
+        height:30px;
+        font-size:16px;
+        background:#f50;
+        box-sizing:border-box;
+        padding:0;
+        font-weight:500;
+        vertical-align:bottom;
+        color:#fff;
+    }
+    div.search-box>p{
+        width:600px;
+        overflow:hidden;
+        margin-top:5px;
+        height:20px;
+        line-height:20px;
+    }
+    .search-box>p>a{
+        color:#999;
+        margin-right:10px;
+    }
+    .search-box>p>a:hover{
+        color:#f60;
+        text-decoration:underline;
+    }
+    .addr{
+        margin:20px 0;
+    }
+    /*购物车列表*/
+    #cart li{
+        float:left;
+        padding:10px;
+        box-sizing:border-box;
+    }
+    #cart-header:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+    #cart-header{
+        width:100%;
+    }
+    #cart-header li{
+        height:50px;
+        line-height:50px;
+        font-size:1.5em;
+        font-weight:bold;
+        padding-left:30px;
+        background-image:linear-gradient(to bottom,#aff,#abc);
+    }
+
+    li.sel{
+        width:100px;
+        text-align:right;
+    }
+    li.prd-detail{
+        width:590px;
+    }
+    li.price{
+        width:100px;
+    }
+    li.count{
+        width:150px;
+        text-align:center;
+    }
+    li.subPrice{
+        width:100px;
+        text-align:center;
+    }
+    li.control{
+        width:148px;
+        text-align:center;
+    }
+    input.prd-count{
+        width:40px;
+        padding:0 auto;
+        text-align:center;
+        outline:none;
+    }
+/*购物车详情*/
+    #cart-list ul:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+    #cart .prd-list>ul{
+        border:1px solid #eee;
+        margin:20px 0;
+    }
+
+    li.prd-detail>img{
+        float:left;
+        border:1px solid #eee;
+        width:80px;
+        height:80px;
+    }
+    li.prd-detail>p{
+        float:left;
+        width:420px;
+        max-height:40px;
+        margin:0 10px;
+        overflow:hidden;
+    }
+    li.count div{
+        border:1px solid #eee;
+        width:80px;
+        padding:0;
+        margin:0 auto;
+    }
+    li.count button{
+        border:none;
+        outline:none;
+        vertical-align:bottom;
+        background:#fff;
+        margin:0;
+        padding:0;
+        font-size:1.5em;
+        cursor:pointer;
+    }
+/*总结算*/
+    #cart-settle{
+        border:1px solid #eee;
+        font-size:1.2em;
+        height:60px;
+        line-height:60px;
+    }
+    #cart-settle:after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+    .totalCount{
+        float:left;
+        width:75%;
+    }
+    .totalCount label{
+        margin:0 20px;
+    }
+    .totalCount div{
+        float:right;
+        box-sizing:border-box;
+        height:40px;
+        line-height:40px;
+        padding-right:20px;
+        margin:10px 20px;
+        border-right:1px solid #eee;
+    }
+    .totalCount div span{
+        color:#f50;
+        font-weight:bold;
+    }
+    .totalPrice{
+        float:left;
+        width:25%;
+    }
+    .totalPrice p{
+        float:left;
+        width:50%;
+    }
+    .totalPrice p span{
+        font-size:20px;
+        color:#f50;
+    }
+    .totalPrice button{
+        float:right;
+        box-sizing:border-box;
+        height:60px;
+        text-align:center;
+        border:none;
+        font-size:20px;
+        background:#f30;
+        color:#fff;
+        text-decoration:none;
+        padding:0 25px;
+        margin-right:-1px;
+        outline:none;
+        cursor:pointer;
+    }
+    .totalPrice button:hover{
+        background:#f50;
+    }
+    input[type='checkbox']{
+        outline: none;
+    }

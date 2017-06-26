@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/shoppingCart.css">
+</head>
+<body>
+    <div id="site-header"></div>
+    <!--LOGO和搜索框-->
+    <header id="logo-wrap">
+        <div id="logo">
+            <div id="lg-wrap">
+                <!--LOGO-->
+                <div class="logo-img">
+                    <a href="index.html"><img src="images/snlogo.png"></a>
+                </div>
+                <!--搜索框-->
+                <div class="search-box">
+                    <div class="search-wrap">
+                        <input type="text" placeholder="请输入关键字">
+                        <button>搜索</button>
+                    </div>
+                </div>
+            </div>
+            <div class="addr">送货至
+                <select name="" id="show">
+                    <option value="10">武汉</option>
+                </select>
+                <div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <section id="main">
+        <div id="cart">
+            <div id="cart-header">
+                <ul>
+                    <li class="sel"><input type="checkbox" class="selAll">全选</li>
+                    <li class="prd-detail">商品信息</li>
+                    <li class="price">单价</li>
+                    <li class="count">数量</li>
+                    <li class="subPrice">小计</li>
+                    <li class="control">操作</li>
+                </ul>
+            </div>
+            <div id="cart-list">
+                <h3>您的购物车为空</h3>
+            </div>
+            <div id="cart-settle">
+                <div class="totalCount">
+                    <label><input type="checkbox" class="selAll">全选</label>
+                    <a class="btnDelAll" href="">删除全部</a>
+                    <div>已选商品&nbsp;<span>0</span>&nbsp;件 <i></i></div>
+                </div>
+                <div class="totalPrice">
+                    <p>总价：<span>￥0.00</span></p>
+                    <button>去结算</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<div id="settle-wrap">-->
+        <!--<div id="settle">-->
+        <!--</div>-->
+    <!--</div>-->
+    <div id="site-footer"></div>
+    <script src="jquery/jquery-1.11.3.js"></script>
+    <script src="js/shoppingCart.js"></script>
+</body>
+</html>
